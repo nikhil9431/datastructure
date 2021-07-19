@@ -34,14 +34,16 @@ public class Deletearray_sortedarray {
 	        int key = 40;
 	 
 	        System.out.print("Array before deletion:\n");
-	        for (i = 0; i < n; i++)
+	        for (i = 0; i < n; i++){
 	            System.out.print(arr[i] + " ");
+		}
 	 
 	        n = deleteelement(arr, n, key);
 	 
 	        System.out.print("\n\nArray after deletion:\n");
-	        for (i = 0; i < n; i++)
+	        for (i = 0; i < n; i++){
 	            System.out.print(arr[i] + " ");
+		}
 
 	}
 
